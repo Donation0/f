@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 
 const PORT = process.env.PORT || 3000;
-const SNUSBASE_API_KEY = "YOUR_API_KEY_HERE"; // 👈 Replace this before deploying
+const SNUSBASE_API_KEY = "sb3x8zb76wryysw6z6e7obsakyx4la"; // 👈 Replace this before deploying
 
 app.get("/search", async (req, res) => {
   const query = req.query.q;
